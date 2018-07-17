@@ -9,11 +9,11 @@ describe("Difference between sum of squares and squares of sum", function () {
     expect( squareSummer.squareOfTheSums() - squareSummer.sumOfSquares() ).toEqual(2640);
   });
 
-  it("for the first 100 natural numbers is XXX", function () {
+  it("for the first 100 natural numbers is 25164150", function () {
     var squareSummer = new SumOfASquare(100);
-    expect( squareSummer.sumOfSquares() ).toEqual(-1);
-    expect( squareSummer.squareOfTheSums() ).toEqual(-1);
-    expect( squareSummer.squareOfTheSums() - squareSummer.sumOfSquares() ).toEqual(-1);
+    expect( squareSummer.sumOfSquares() ).toEqual(338350);
+    expect( squareSummer.squareOfTheSums() ).toEqual(25502500);
+    expect( squareSummer.squareOfTheSums() - squareSummer.sumOfSquares() ).toEqual(25164150);
   });
 
 });    
